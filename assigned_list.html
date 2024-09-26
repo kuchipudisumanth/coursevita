@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigned List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assigned List</h1>
+        <div id="teamsContainer"></div>
+        <button id="submitTeams" class="submit-btn" disabled>Submit Teams</button>
+        
+        <!-- Section for sample mail and progress tracking -->
+        <div id="sampleMailSection" style="display:none;">
+            <h2>Sample Email Sent:</h2>
+            <p><strong>Meeting Link:</strong> <a href="https://calendar.example.com/add_meeting">Add to Calendar</a></p>
+            <p><strong>Folder Link:</strong> <a href="https://drive.example.com/team_folder">Upload Files</a></p>
+            <div id="teamProgressContainer"></div>
+            <button id="submitProgress" class="submit-btn">Submit Progress</button>
+        </div>
+        
+        <!-- Section for project progress -->
+        <div id="projectProgressSection" style="display:none;">
+            <h2>Project Progress</h2>
+            <p id="projectProgress"></p>
+        </div>
+    </div>
+
+    <script src="assigned_list.js"></script>
+</body>
+</html>

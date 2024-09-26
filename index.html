@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sprint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project Sprint</h1>
+        <form id="projectForm">
+            <label for="projectName">Project Name*</label>
+            <input type="text" id="projectName" name="projectName" placeholder="Enter project name" required>
+
+            <label for="requirements">Requirements*</label>
+            <textarea id="requirements" name="requirements" rows="5" placeholder="Enter requirements here" required></textarea>
+
+            <div class="buttons">
+                <button type="button" id="generateButton" class="oval-btn">Generate</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
